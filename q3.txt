@@ -1,0 +1,9 @@
+ let sum=0
+  const arr=[2,3,6,1,7,4]
+  for( let i in arr){
+      if(arr[i]%2==0){
+          sum=arr[i]+sum;
+          
+      }
+  }
+  console.log(sum);

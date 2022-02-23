@@ -1,0 +1,10 @@
+
+
+  let a ="23617"
+  let sum=0
+  const aa=Array.from(a)
+  console.log(aa)
+  var res=aa.reduce(function(prev,curr){
+    return(Number(prev)||0)+(Number(curr)||0)
+  })
+  console.log(res)

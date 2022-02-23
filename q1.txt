@@ -1,0 +1,11 @@
+
+
+const arr=[2,3,6,1,7]
+let k=4
+let l=k-1;
+for(let i in arr){
+    if(arr[i]==l){
+        console.log("Kth valur from last is : "+arr[i])
+    }
+    
+}
